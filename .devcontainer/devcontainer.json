@@ -1,0 +1,32 @@
+{
+  "name": "Go",
+  "dockerComposeFile": [
+    "./docker-compose.yml"
+  ],
+  "service": "admin",
+  "workspaceFolder": "/usr/src/admin",
+  "settings": {
+    "go.toolsManagement.checkForUpdates": "off",
+    "go.gopath": "/go",
+    "go.gocodeAutoBuild": true,
+    "go.formatTool": "gofmt",
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": false,
+    "[go]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "extensions": [
+    "golang.go",
+    "premparihar.gotestexplorer",
+    "zxh404.vscode-proto3",
+    "formulahendry.code-runner",
+    "quicktype.quicktype",
+    "premparihar.gotestexplorer",
+    "donjayamanne.githistory",
+    "redhat.vscode-yaml",
+    "TheHolyCoder.swagger-tools",
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker"
+  ],
+}
